@@ -11,15 +11,20 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/core": "^2.2.18",
+    "@faststore/api": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/api",
+    "@faststore/components": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/components",
+    "@faststore/core": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/core",
+    "@faststore/graphql-utils": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/graphql-utils",
+    "@faststore/sdk": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/sdk",
+    "@faststore/ui": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/ui",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.1",
-    "@faststore/cli": "2.2.20",
-    "@faststore/lighthouse": "^2.2.0",
+    "@faststore/cli": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/cli",
+    "@faststore/lighthouse": "https://pkg.csb.dev/vtex/faststore/commit/476a18a0/@faststore/lighthouse",
     "@lhci/cli": "^0.9.0",
     "@testing-library/cypress": "^10.0.1",
     "cypress": "12.17.4",
